@@ -170,5 +170,5 @@ app.delete('/tasks/:id', verifyToken, async (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log('Server กำลังรันอยู่ที่พอร์ต ${PORT}');
+    console.log(`Server กำลังรันอยู่ที่พอร์ต ${PORT}`);
 });
